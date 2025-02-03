@@ -1,0 +1,81 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font settings */
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    background-color: #ffebeb; /* Soft pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #d72b6e; /* Romantic dark pink text */
+}
+
+/* Container styling */
+.container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Title styling */
+h1.question {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #d72b6e;
+}
+
+/* Valentine response page styling */
+h1.valentine-response {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ff4c7a; /* Romantic red */
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.buttons, .back-button {
+    margin-top: 30px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Yes button specific styling */
+.yes {
+    background-color: #ff4c7a; /* Warm, romantic red */
+    color: white;
+}
+
+/* Yes, I will be your Valentine button styling */
+.yes-valentine {
+    background-color: #ff7c9b; /* Light romantic pink */
+    color: white;
+}
+
+/* Back button styling for the response page */
+.back {
+    background-color: #ffadad; /* Soft pink */
+    color: white;
+}
